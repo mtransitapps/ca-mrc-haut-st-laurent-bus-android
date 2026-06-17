@@ -2,8 +2,12 @@
     "default_route_id_enabled": true,
     "use_route_short_name_for_route_id": true,
     "default_route_long_name_enabled": true,
+    "direction_splitter_enabled": true,
     "direction_finder_enabled": true,
+    "direction_headsign_cleaners": [],
     "trip_headsign_remove_via": true,
     "trip_headsign_cleaners": [],
+    "trip_id_cleanup_regex": "^TRIP-",
+    "use_stop_code_for_stop_id": true,
     "stop_name_cleaners": []
 }

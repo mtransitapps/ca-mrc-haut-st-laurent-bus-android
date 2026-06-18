@@ -1,9 +1,57 @@
 {
     "default_route_id_enabled": true,
     "use_route_short_name_for_route_id": true,
+    "route_short_name_to_route_id_configs": [
+        {
+            "route_short_name": "Jaune",
+            "route_id": 12000
+        },
+        {
+            "route_short_name": "Bleue",
+            "route_id": 2000
+        },
+        {
+            "route_short_name": "Verte",
+            "route_id": 22000
+        }
+    ],
+    "route_long_name_cleaners_not": [
+        {
+            "regex": "^ligne \\w+$",
+            "ignore_case": true,
+            "comment": "remove 'Ligne RSN' long names"
+        }
+    ],
     "default_route_long_name_enabled": true,
+    "direction_splitter_enabled": true,
     "direction_finder_enabled": true,
+    "direction_headsign_cleaners": [],
     "trip_headsign_remove_via": true,
-    "trip_headsign_cleaners": [],
+    "trip_headsign_cleaners": [
+        {
+            "regex": "^-$",
+            "ignore_case": true,
+            "comment": "remove '-' head-signs"
+        }
+    ],
+    "trip_id_cleanup_regex": "^TRIP_",
+    "stop_id_not_supported_configs": [
+        {
+            "original_stop_id": "ST:6eto2r",
+            "stop_id_int": 10000
+        },
+        {
+            "original_stop_id": "ST:ki3tja",
+            "stop_id_int": 10001
+        },
+        {
+            "original_stop_id": "ST:ol8qob",
+            "stop_id_int": 10002
+        },
+        {
+            "original_stop_id": "ST:wr1i13",
+            "stop_id_int": 10003
+        }
+    ],
     "stop_name_cleaners": []
 }

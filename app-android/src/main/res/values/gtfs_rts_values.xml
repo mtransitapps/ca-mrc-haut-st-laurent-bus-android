@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <!-- More settings available: https://github.com/mtransitapps/commons-android/blob/master/src/main/res/values/gtfs_rts_values.xml -->
-    <!-- gtfs_rts_db_version is generated automatically -->
-    <integer name="gtfs_rts_db_version">20100602</integer>
-    <string name="gtfs_rts_contact_us">INSERT_DEFAULT_URL</string>
-    <string name="gtfs_rts_contact_us_fr">INSERT_FR_URL_OR_REMOVE</string>
-    <string name="gtfs_rts_fares">INSERT_DEFAULT_URL</string>
-    <string name="gtfs_rts_fares_fr">INSERT_FR_URL_OR_REMOVE</string>
+    <integer name="gtfs_rts_db_version">20260617</integer>
+    <string name="gtfs_rts_contact_us">https://mrchsl.com/services/transport#:~:text=COMMENTAIRES%20ET%20SUGGESTIONS</string>
+    <string name="gtfs_rts_fares">https://mrchsl.com/services/transport#:~:text=TRANSPORT%20PAR%20AUTOBUS%20GRATUIT%20%7C%20LUNDI%20AU%20VENDREDI%20(SAUF%20F%C3%89RI%C3%89S)</string>
 </resources>

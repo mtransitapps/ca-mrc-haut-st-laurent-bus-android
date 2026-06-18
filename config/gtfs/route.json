@@ -19,7 +19,7 @@
         {
             "regex": "^ligne \\w+$",
             "ignore_case": true,
-            "comment": "remove 'Ligne RSN' route long names"
+            "comment": "remove 'Ligne RSN' long names"
         }
     ],
     "default_route_long_name_enabled": true,

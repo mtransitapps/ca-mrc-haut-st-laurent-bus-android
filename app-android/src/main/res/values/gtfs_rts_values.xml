@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <integer name="gtfs_rts_db_version">20260608</integer>
+    <integer name="gtfs_rts_db_version">20260617</integer>
     <string name="gtfs_rts_contact_us">https://mrchsl.com/services/transport#:~:text=COMMENTAIRES%20ET%20SUGGESTIONS</string>
     <string name="gtfs_rts_fares">https://mrchsl.com/services/transport#:~:text=TRANSPORT%20PAR%20AUTOBUS%20GRATUIT%20%7C%20LUNDI%20AU%20VENDREDI%20(SAUF%20F%C3%89RI%C3%89S)</string>
 </resources>
